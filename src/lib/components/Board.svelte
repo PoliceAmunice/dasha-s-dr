@@ -1,10 +1,11 @@
 <script lang="ts">
-	import { CARDS, type TCard } from '$lib/data/cards';
-	import { GLOBALS } from '$lib/data/globals';
+	import { CARDS, MAX_LEVEL, type TCard } from '$lib/draw-io';
 	import { getAverageNumber, getRectFromElement, hasNoCollision } from '$lib/helpers';
 	import Card from './Card.svelte';
 
-	const initialCards = CARDS.filter((c) => c.level === 0);
+	const CARDS_ARR = Array.from(CARDS.values());
+
+	const initialCards = CARDS_ARR.filter((c) => c.level === MAX_LEVEL);
 	let boardEl: HTMLElement;
 	let matchedCardsCount = 0;
 	let whiteCardsCount = 0;
@@ -29,16 +30,16 @@
 			return;
 		}
 
-		const card1 = CARDS.find((c) => c.slug === target.id);
-		const card2 = CARDS.find((c) => c.slug === firstColliedEl.id);
-		if (!card1 || !card2 || !areMatchingCards(card1, card2)) {
+		const card1 = CARDS.get(target.id);
+		const card2 = CARDS.get(firstColliedEl.id);
+		if (!card1?.parent || !card2?.parent || !areMatchingCards(card1, card2)) {
 			return;
 		}
 
 		cardComps[card1.slug].$destroy();
 		cardComps[card2.slug].$destroy();
 
-		const nextCard = CARDS.find((c) => c.slug === card1.parent)!;
+		const nextCard = CARDS.get(card1.parent)!;
 		cardComps[nextCard.slug] = new Card({
 			target: boardEl,
 			props: {
@@ -52,15 +53,13 @@
 		// Parentless logic
 
 		if (!nextCard.parent) {
-			return alert(nextCard.slug === GLOBALS.lastCardSlug ? 'win' : 'wrong tree!');
+			return alert(nextCard.level === 0 ? 'win' : 'wrong tree!');
 		}
 
 		// Childfree logic
 
 		if (matchedCardsCount === 0) {
-			whiteCardsCount = CARDS
-				.filter(c => c.level === nextCard.level && !!c.children)
-				.length;
+			whiteCardsCount = CARDS_ARR.filter((c) => c.level === nextCard.level && !!c.children).length;
 		}
 
 		if (++matchedCardsCount !== whiteCardsCount) {
@@ -68,19 +67,17 @@
 		}
 
 		matchedCardsCount = 0;
-		CARDS
-			.filter((c) => c.level === nextCard.level && !c.children)
-			.forEach((c) => {
-				cardComps[c.slug] = new Card({
-					target: boardEl,
-					props: {
-						slug: c.slug,
-						title: c.title,
-						x: c.coords.x,
-						y: c.coords.y
-					}
-				});
+		CARDS_ARR.filter((c) => c.level === nextCard.level && !c.children).forEach((c) => {
+			cardComps[c.slug] = new Card({
+				target: boardEl,
+				props: {
+					slug: c.slug,
+					title: c.title,
+					x: 0,
+					y: 0
+				}
 			});
+		});
 	}
 
 	function areMatchingCards(c1: TCard, c2: TCard): boolean {
@@ -97,8 +94,8 @@
 				bind:this={cardComps[card.slug]}
 				slug={card.slug}
 				title={card.title}
-				x={card.coords.x}
-				y={card.coords.y}
+				x={0}
+				y={0}
 			/>
 		{/each}
 	</div>

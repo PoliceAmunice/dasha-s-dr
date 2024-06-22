@@ -1,0 +1,1443 @@
+[
+	{
+		"_id": "0"
+	},
+	{
+		"_id": "1",
+		"_parent": "0"
+	},
+	{
+		"mxGeometry": {
+			"_x": "350",
+			"_y": "60",
+			"_width": "120",
+			"_height": "60",
+			"_as": "geometry"
+		},
+		"_id": "vuDMvUlZTWsBNaGzq0oV-1",
+		"_value": "Филипп(отдает подарок)",
+		"_style": "rounded=0;whiteSpace=wrap;html=1;",
+		"_parent": "1",
+		"_vertex": "1"
+	},
+	{
+		"mxGeometry": {
+			"_relative": "1",
+			"_as": "geometry"
+		},
+		"_id": "vuDMvUlZTWsBNaGzq0oV-15",
+		"_style": "edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;",
+		"_parent": "1",
+		"_source": "vuDMvUlZTWsBNaGzq0oV-2",
+		"_target": "vuDMvUlZTWsBNaGzq0oV-1",
+		"_edge": "1"
+	},
+	{
+		"mxGeometry": {
+			"_x": "120",
+			"_y": "220",
+			"_width": "120",
+			"_height": "60",
+			"_as": "geometry"
+		},
+		"_id": "vuDMvUlZTWsBNaGzq0oV-2",
+		"_value": "Diversity",
+		"_style": "rounded=0;whiteSpace=wrap;html=1;fillColor=#D5E8D4;",
+		"_parent": "1",
+		"_vertex": "1"
+	},
+	{
+		"mxGeometry": {
+			"_relative": "1",
+			"_as": "geometry"
+		},
+		"_id": "vuDMvUlZTWsBNaGzq0oV-14",
+		"_style": "edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;",
+		"_parent": "1",
+		"_source": "vuDMvUlZTWsBNaGzq0oV-3",
+		"_target": "vuDMvUlZTWsBNaGzq0oV-1",
+		"_edge": "1"
+	},
+	{
+		"mxGeometry": {
+			"_x": "570",
+			"_y": "220",
+			"_width": "120",
+			"_height": "60",
+			"_as": "geometry"
+		},
+		"_id": "vuDMvUlZTWsBNaGzq0oV-3",
+		"_value": "Разврат",
+		"_style": "rounded=0;whiteSpace=wrap;html=1;",
+		"_parent": "1",
+		"_vertex": "1"
+	},
+	{
+		"mxGeometry": {
+			"_relative": "1",
+			"_as": "geometry"
+		},
+		"_id": "vuDMvUlZTWsBNaGzq0oV-13",
+		"_value": "",
+		"_style": "edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;",
+		"_parent": "1",
+		"_source": "vuDMvUlZTWsBNaGzq0oV-4",
+		"_target": "vuDMvUlZTWsBNaGzq0oV-3",
+		"_edge": "1"
+	},
+	{
+		"mxGeometry": {
+			"_x": "570",
+			"_y": "320",
+			"_width": "120",
+			"_height": "60",
+			"_as": "geometry"
+		},
+		"_id": "vuDMvUlZTWsBNaGzq0oV-4",
+		"_value": "SEO",
+		"_style": "rounded=0;whiteSpace=wrap;html=1;",
+		"_parent": "1",
+		"_vertex": "1"
+	},
+	{
+		"mxGeometry": {
+			"_relative": "1",
+			"_as": "geometry"
+		},
+		"_id": "vuDMvUlZTWsBNaGzq0oV-12",
+		"_style": "edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;",
+		"_parent": "1",
+		"_source": "vuDMvUlZTWsBNaGzq0oV-5",
+		"_target": "vuDMvUlZTWsBNaGzq0oV-3",
+		"_edge": "1"
+	},
+	{
+		"mxGeometry": {
+			"_x": "940",
+			"_y": "320",
+			"_width": "120",
+			"_height": "60",
+			"_as": "geometry"
+		},
+		"_id": "vuDMvUlZTWsBNaGzq0oV-5",
+		"_value": "Шаблон",
+		"_style": "rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;",
+		"_parent": "1",
+		"_vertex": "1"
+	},
+	{
+		"mxGeometry": {
+			"_relative": "1",
+			"_as": "geometry"
+		},
+		"_id": "vuDMvUlZTWsBNaGzq0oV-16",
+		"_style": "edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;",
+		"_parent": "1",
+		"_source": "vuDMvUlZTWsBNaGzq0oV-6",
+		"_target": "vuDMvUlZTWsBNaGzq0oV-4",
+		"_edge": "1"
+	},
+	{
+		"mxGeometry": {
+			"_x": "660",
+			"_y": "430",
+			"_width": "120",
+			"_height": "60",
+			"_as": "geometry"
+		},
+		"_id": "vuDMvUlZTWsBNaGzq0oV-6",
+		"_value": "Farpost",
+		"_style": "rounded=0;whiteSpace=wrap;html=1;",
+		"_parent": "1",
+		"_vertex": "1"
+	},
+	{
+		"mxGeometry": {
+			"_relative": "1",
+			"_as": "geometry"
+		},
+		"_id": "vuDMvUlZTWsBNaGzq0oV-17",
+		"_style": "edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;",
+		"_parent": "1",
+		"_source": "vuDMvUlZTWsBNaGzq0oV-7",
+		"_target": "vuDMvUlZTWsBNaGzq0oV-4",
+		"_edge": "1"
+	},
+	{
+		"mxGeometry": {
+			"_x": "480",
+			"_y": "430",
+			"_width": "120",
+			"_height": "60",
+			"_as": "geometry"
+		},
+		"_id": "vuDMvUlZTWsBNaGzq0oV-7",
+		"_value": "Шар для боулинга",
+		"_style": "rounded=0;whiteSpace=wrap;html=1;",
+		"_parent": "1",
+		"_vertex": "1"
+	},
+	{
+		"mxGeometry": {
+			"_relative": "1",
+			"_as": "geometry"
+		},
+		"_id": "vuDMvUlZTWsBNaGzq0oV-20",
+		"_style": "edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;",
+		"_parent": "1",
+		"_source": "vuDMvUlZTWsBNaGzq0oV-18",
+		"_target": "vuDMvUlZTWsBNaGzq0oV-6",
+		"_edge": "1"
+	},
+	{
+		"mxGeometry": {
+			"_x": "660",
+			"_y": "550",
+			"_width": "120",
+			"_height": "60",
+			"_as": "geometry"
+		},
+		"_id": "vuDMvUlZTWsBNaGzq0oV-18",
+		"_value": "Кофемашина",
+		"_style": "rounded=0;whiteSpace=wrap;html=1;",
+		"_parent": "1",
+		"_vertex": "1"
+	},
+	{
+		"mxGeometry": {
+			"Array": {
+				"mxPoint": [
+					{
+						"_x": "900",
+						"_y": "520"
+					},
+					{
+						"_x": "720",
+						"_y": "520"
+					}
+				],
+				"_as": "points"
+			},
+			"_relative": "1",
+			"_as": "geometry"
+		},
+		"_id": "vuDMvUlZTWsBNaGzq0oV-21",
+		"_style": "edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;",
+		"_parent": "1",
+		"_source": "vuDMvUlZTWsBNaGzq0oV-19",
+		"_target": "vuDMvUlZTWsBNaGzq0oV-6",
+		"_edge": "1"
+	},
+	{
+		"mxGeometry": {
+			"_x": "840",
+			"_y": "550",
+			"_width": "120",
+			"_height": "60",
+			"_as": "geometry"
+		},
+		"_id": "vuDMvUlZTWsBNaGzq0oV-19",
+		"_value": "ИП Новикова",
+		"_style": "rounded=0;whiteSpace=wrap;html=1;",
+		"_parent": "1",
+		"_vertex": "1"
+	},
+	{
+		"mxGeometry": {
+			"Array": {
+				"mxPoint": [
+					{
+						"_x": "625",
+						"_y": "650"
+					},
+					{
+						"_x": "720",
+						"_y": "650"
+					}
+				],
+				"_as": "points"
+			},
+			"_relative": "1",
+			"_as": "geometry"
+		},
+		"_id": "vuDMvUlZTWsBNaGzq0oV-23",
+		"_style": "edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;",
+		"_parent": "1",
+		"_source": "vuDMvUlZTWsBNaGzq0oV-22",
+		"_target": "vuDMvUlZTWsBNaGzq0oV-18",
+		"_edge": "1"
+	},
+	{
+		"mxGeometry": {
+			"_x": "565",
+			"_y": "680",
+			"_width": "120",
+			"_height": "60",
+			"_as": "geometry"
+		},
+		"_id": "vuDMvUlZTWsBNaGzq0oV-22",
+		"_value": "Коллеги",
+		"_style": "rounded=0;whiteSpace=wrap;html=1;",
+		"_parent": "1",
+		"_vertex": "1"
+	},
+	{
+		"mxGeometry": {
+			"Array": {
+				"mxPoint": [
+					{
+						"_x": "455",
+						"_y": "650"
+					},
+					{
+						"_x": "720",
+						"_y": "650"
+					}
+				],
+				"_as": "points"
+			},
+			"_relative": "1",
+			"_as": "geometry"
+		},
+		"_id": "vuDMvUlZTWsBNaGzq0oV-25",
+		"_style": "edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;",
+		"_parent": "1",
+		"_source": "vuDMvUlZTWsBNaGzq0oV-24",
+		"_target": "vuDMvUlZTWsBNaGzq0oV-18",
+		"_edge": "1"
+	},
+	{
+		"mxGeometry": {
+			"_x": "395",
+			"_y": "680",
+			"_width": "120",
+			"_height": "60",
+			"_as": "geometry"
+		},
+		"_id": "vuDMvUlZTWsBNaGzq0oV-24",
+		"_value": "проебаться",
+		"_style": "rounded=0;whiteSpace=wrap;html=1;",
+		"_parent": "1",
+		"_vertex": "1"
+	},
+	{
+		"mxGeometry": {
+			"Array": {
+				"mxPoint": [
+					{
+						"_x": "335",
+						"_y": "770"
+					},
+					{
+						"_x": "455",
+						"_y": "770"
+					}
+				],
+				"_as": "points"
+			},
+			"_relative": "1",
+			"_as": "geometry"
+		},
+		"_id": "XJxhsUU0Umza7og76Pbv-4",
+		"_style": "edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;",
+		"_parent": "1",
+		"_source": "vuDMvUlZTWsBNaGzq0oV-26",
+		"_target": "vuDMvUlZTWsBNaGzq0oV-24",
+		"_edge": "1"
+	},
+	{
+		"mxGeometry": {
+			"_x": "275",
+			"_y": "800",
+			"_width": "120",
+			"_height": "60",
+			"_as": "geometry"
+		},
+		"_id": "vuDMvUlZTWsBNaGzq0oV-26",
+		"_value": "\"До обеда из дома\"",
+		"_style": "rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;",
+		"_parent": "1",
+		"_vertex": "1"
+	},
+	{
+		"mxGeometry": {
+			"_relative": "1",
+			"_as": "geometry"
+		},
+		"_id": "XJxhsUU0Umza7og76Pbv-3",
+		"_style": "edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;",
+		"_parent": "1",
+		"_source": "vuDMvUlZTWsBNaGzq0oV-30",
+		"_target": "vuDMvUlZTWsBNaGzq0oV-24",
+		"_edge": "1"
+	},
+	{
+		"mxGeometry": {
+			"_x": "440",
+			"_y": "800",
+			"_width": "120",
+			"_height": "60",
+			"_as": "geometry"
+		},
+		"_id": "vuDMvUlZTWsBNaGzq0oV-30",
+		"_value": "курилка",
+		"_style": "rounded=0;whiteSpace=wrap;html=1;",
+		"_parent": "1",
+		"_vertex": "1"
+	},
+	{
+		"mxGeometry": {
+			"Array": {
+				"mxPoint": [
+					{
+						"_x": "1110",
+						"_y": "650"
+					},
+					{
+						"_x": "900",
+						"_y": "650"
+					}
+				],
+				"_as": "points"
+			},
+			"_relative": "1",
+			"_as": "geometry"
+		},
+		"_id": "vuDMvUlZTWsBNaGzq0oV-40",
+		"_style": "edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;",
+		"_parent": "1",
+		"_source": "vuDMvUlZTWsBNaGzq0oV-37",
+		"_target": "vuDMvUlZTWsBNaGzq0oV-19",
+		"_edge": "1"
+	},
+	{
+		"mxGeometry": {
+			"_x": "1050",
+			"_y": "680",
+			"_width": "120",
+			"_height": "60",
+			"_as": "geometry"
+		},
+		"_id": "vuDMvUlZTWsBNaGzq0oV-37",
+		"_value": "Аня",
+		"_style": "rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;",
+		"_parent": "1",
+		"_vertex": "1"
+	},
+	{
+		"mxGeometry": {
+			"Array": {
+				"mxPoint": [
+					{
+						"_x": "1280",
+						"_y": "650"
+					},
+					{
+						"_x": "900",
+						"_y": "650"
+					}
+				],
+				"_as": "points"
+			},
+			"_relative": "1",
+			"_as": "geometry"
+		},
+		"_id": "vuDMvUlZTWsBNaGzq0oV-41",
+		"_style": "edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;",
+		"_parent": "1",
+		"_source": "vuDMvUlZTWsBNaGzq0oV-38",
+		"_target": "vuDMvUlZTWsBNaGzq0oV-19",
+		"_edge": "1"
+	},
+	{
+		"mxGeometry": {
+			"_x": "1220",
+			"_y": "680",
+			"_width": "120",
+			"_height": "60",
+			"_as": "geometry"
+		},
+		"_id": "vuDMvUlZTWsBNaGzq0oV-38",
+		"_value": "Диплом ДВФУ",
+		"_style": "rounded=0;whiteSpace=wrap;html=1;",
+		"_parent": "1",
+		"_vertex": "1"
+	},
+	{
+		"mxGeometry": {
+			"_relative": "1",
+			"_as": "geometry"
+		},
+		"_id": "vuDMvUlZTWsBNaGzq0oV-45",
+		"_value": "",
+		"_style": "edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;",
+		"_parent": "1",
+		"_source": "vuDMvUlZTWsBNaGzq0oV-43",
+		"_target": "vuDMvUlZTWsBNaGzq0oV-30",
+		"_edge": "1"
+	},
+	{
+		"mxGeometry": {
+			"_x": "440",
+			"_y": "900",
+			"_width": "120",
+			"_height": "60",
+			"_as": "geometry"
+		},
+		"_id": "vuDMvUlZTWsBNaGzq0oV-43",
+		"_value": "Вертодром",
+		"_style": "rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;",
+		"_parent": "1",
+		"_vertex": "1"
+	},
+	{
+		"mxGeometry": {
+			"Array": {
+				"mxPoint": [
+					{
+						"_x": "335",
+						"_y": "880"
+					},
+					{
+						"_x": "500",
+						"_y": "880"
+					}
+				],
+				"_as": "points"
+			},
+			"_relative": "1",
+			"_as": "geometry"
+		},
+		"_id": "vuDMvUlZTWsBNaGzq0oV-64",
+		"_style": "edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;",
+		"_parent": "1",
+		"_source": "vuDMvUlZTWsBNaGzq0oV-44",
+		"_target": "vuDMvUlZTWsBNaGzq0oV-30",
+		"_edge": "1"
+	},
+	{
+		"mxGeometry": {
+			"_x": "275",
+			"_y": "900",
+			"_width": "120",
+			"_height": "60",
+			"_as": "geometry"
+		},
+		"_id": "vuDMvUlZTWsBNaGzq0oV-44",
+		"_value": "Анжелика",
+		"_style": "rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;",
+		"_parent": "1",
+		"_vertex": "1"
+	},
+	{
+		"mxGeometry": {
+			"Array": {
+				"mxPoint": [
+					{
+						"_x": "1420",
+						"_y": "770"
+					},
+					{
+						"_x": "1280",
+						"_y": "770"
+					}
+				],
+				"_as": "points"
+			},
+			"_relative": "1",
+			"_as": "geometry"
+		},
+		"_id": "vuDMvUlZTWsBNaGzq0oV-49",
+		"_style": "edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;",
+		"_parent": "1",
+		"_source": "vuDMvUlZTWsBNaGzq0oV-47",
+		"_target": "vuDMvUlZTWsBNaGzq0oV-38",
+		"_edge": "1"
+	},
+	{
+		"mxGeometry": {
+			"_x": "1360",
+			"_y": "800",
+			"_width": "120",
+			"_height": "60",
+			"_as": "geometry"
+		},
+		"_id": "vuDMvUlZTWsBNaGzq0oV-47",
+		"_value": "Надежда Викторовна",
+		"_style": "rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;",
+		"_parent": "1",
+		"_vertex": "1"
+	},
+	{
+		"mxGeometry": {
+			"_relative": "1",
+			"_as": "geometry"
+		},
+		"_id": "vuDMvUlZTWsBNaGzq0oV-50",
+		"_style": "edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;",
+		"_parent": "1",
+		"_source": "vuDMvUlZTWsBNaGzq0oV-48",
+		"_target": "vuDMvUlZTWsBNaGzq0oV-38",
+		"_edge": "1"
+	},
+	{
+		"mxGeometry": {
+			"_x": "1180",
+			"_y": "800",
+			"_width": "120",
+			"_height": "60",
+			"_as": "geometry"
+		},
+		"_id": "vuDMvUlZTWsBNaGzq0oV-48",
+		"_value": "\"Веревка и мыло\" (ПЕРЕПИСАТЬ)",
+		"_style": "rounded=0;whiteSpace=wrap;html=1;",
+		"_parent": "1",
+		"_vertex": "1"
+	},
+	{
+		"mxGeometry": {
+			"_relative": "1",
+			"_as": "geometry"
+		},
+		"_id": "vuDMvUlZTWsBNaGzq0oV-53",
+		"_style": "edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;",
+		"_parent": "1",
+		"_source": "vuDMvUlZTWsBNaGzq0oV-51",
+		"_target": "vuDMvUlZTWsBNaGzq0oV-48",
+		"_edge": "1"
+	},
+	{
+		"mxGeometry": {
+			"_x": "1270",
+			"_y": "900",
+			"_width": "120",
+			"_height": "60",
+			"_as": "geometry"
+		},
+		"_id": "vuDMvUlZTWsBNaGzq0oV-51",
+		"_value": "PowerShell",
+		"_style": "rounded=0;whiteSpace=wrap;html=1;",
+		"_parent": "1",
+		"_vertex": "1"
+	},
+	{
+		"mxGeometry": {
+			"_relative": "1",
+			"_as": "geometry"
+		},
+		"_id": "vuDMvUlZTWsBNaGzq0oV-54",
+		"_style": "edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;",
+		"_parent": "1",
+		"_source": "vuDMvUlZTWsBNaGzq0oV-52",
+		"_target": "vuDMvUlZTWsBNaGzq0oV-48",
+		"_edge": "1"
+	},
+	{
+		"mxGeometry": {
+			"_x": "1090",
+			"_y": "900",
+			"_width": "120",
+			"_height": "60",
+			"_as": "geometry"
+		},
+		"_id": "vuDMvUlZTWsBNaGzq0oV-52",
+		"_value": "Android Studio",
+		"_style": "rounded=0;whiteSpace=wrap;html=1;",
+		"_parent": "1",
+		"_vertex": "1"
+	},
+	{
+		"mxGeometry": {
+			"_relative": "1",
+			"_as": "geometry"
+		},
+		"_id": "vuDMvUlZTWsBNaGzq0oV-57",
+		"_style": "edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;",
+		"_parent": "1",
+		"_source": "vuDMvUlZTWsBNaGzq0oV-55",
+		"_target": "vuDMvUlZTWsBNaGzq0oV-52",
+		"_edge": "1"
+	},
+	{
+		"mxGeometry": {
+			"_x": "1000",
+			"_y": "1000",
+			"_width": "120",
+			"_height": "60",
+			"_as": "geometry"
+		},
+		"_id": "vuDMvUlZTWsBNaGzq0oV-55",
+		"_value": "Proxy, Cache",
+		"_style": "rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;",
+		"_parent": "1",
+		"_vertex": "1"
+	},
+	{
+		"mxGeometry": {
+			"_relative": "1",
+			"_as": "geometry"
+		},
+		"_id": "vuDMvUlZTWsBNaGzq0oV-58",
+		"_style": "edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;",
+		"_parent": "1",
+		"_source": "vuDMvUlZTWsBNaGzq0oV-56",
+		"_target": "vuDMvUlZTWsBNaGzq0oV-52",
+		"_edge": "1"
+	},
+	{
+		"mxGeometry": {
+			"_x": "1170",
+			"_y": "1000",
+			"_width": "120",
+			"_height": "60",
+			"_as": "geometry"
+		},
+		"_id": "vuDMvUlZTWsBNaGzq0oV-56",
+		"_value": "Offline mode",
+		"_style": "rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;",
+		"_parent": "1",
+		"_vertex": "1"
+	},
+	{
+		"mxGeometry": {
+			"_relative": "1",
+			"_as": "geometry"
+		},
+		"_id": "vuDMvUlZTWsBNaGzq0oV-62",
+		"_style": "edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;",
+		"_parent": "1",
+		"_source": "vuDMvUlZTWsBNaGzq0oV-59",
+		"_target": "vuDMvUlZTWsBNaGzq0oV-51",
+		"_edge": "1"
+	},
+	{
+		"mxGeometry": {
+			"_x": "1340",
+			"_y": "1000",
+			"_width": "120",
+			"_height": "60",
+			"_as": "geometry"
+		},
+		"_id": "vuDMvUlZTWsBNaGzq0oV-59",
+		"_value": "японский иероглиф",
+		"_style": "rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;",
+		"_parent": "1",
+		"_vertex": "1"
+	},
+	{
+		"mxGeometry": {
+			"Array": {
+				"mxPoint": [
+					{
+						"_x": "1570",
+						"_y": "980"
+					},
+					{
+						"_x": "1330",
+						"_y": "980"
+					}
+				],
+				"_as": "points"
+			},
+			"_relative": "1",
+			"_as": "geometry"
+		},
+		"_id": "vuDMvUlZTWsBNaGzq0oV-63",
+		"_style": "edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;",
+		"_parent": "1",
+		"_source": "vuDMvUlZTWsBNaGzq0oV-60",
+		"_target": "vuDMvUlZTWsBNaGzq0oV-51",
+		"_edge": "1"
+	},
+	{
+		"mxGeometry": {
+			"_x": "1510",
+			"_y": "1000",
+			"_width": "120",
+			"_height": "60",
+			"_as": "geometry"
+		},
+		"_id": "vuDMvUlZTWsBNaGzq0oV-60",
+		"_value": "Windows",
+		"_style": "rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;",
+		"_parent": "1",
+		"_vertex": "1"
+	},
+	{
+		"mxGeometry": {
+			"_relative": "1",
+			"_as": "geometry"
+		},
+		"_id": "XJxhsUU0Umza7og76Pbv-6",
+		"_style": "edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;",
+		"_parent": "1",
+		"_source": "vuDMvUlZTWsBNaGzq0oV-65",
+		"_target": "vuDMvUlZTWsBNaGzq0oV-22",
+		"_edge": "1"
+	},
+	{
+		"mxGeometry": {
+			"_x": "610",
+			"_y": "800",
+			"_width": "120",
+			"_height": "60",
+			"_as": "geometry"
+		},
+		"_id": "vuDMvUlZTWsBNaGzq0oV-65",
+		"_value": "рассол",
+		"_style": "rounded=0;whiteSpace=wrap;html=1;",
+		"_parent": "1",
+		"_vertex": "1"
+	},
+	{
+		"mxGeometry": {
+			"Array": {
+				"mxPoint": [
+					{
+						"_x": "840",
+						"_y": "770"
+					},
+					{
+						"_x": "625",
+						"_y": "770"
+					}
+				],
+				"_as": "points"
+			},
+			"_relative": "1",
+			"_as": "geometry"
+		},
+		"_id": "XJxhsUU0Umza7og76Pbv-5",
+		"_style": "edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;",
+		"_parent": "1",
+		"_source": "vuDMvUlZTWsBNaGzq0oV-66",
+		"_target": "vuDMvUlZTWsBNaGzq0oV-22",
+		"_edge": "1"
+	},
+	{
+		"mxGeometry": {
+			"_x": "780",
+			"_y": "800",
+			"_width": "120",
+			"_height": "60",
+			"_as": "geometry"
+		},
+		"_id": "vuDMvUlZTWsBNaGzq0oV-66",
+		"_value": "скейт",
+		"_style": "rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;",
+		"_parent": "1",
+		"_vertex": "1"
+	},
+	{
+		"mxGeometry": {
+			"_relative": "1",
+			"_as": "geometry"
+		},
+		"_id": "vuDMvUlZTWsBNaGzq0oV-70",
+		"_style": "edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;",
+		"_parent": "1",
+		"_source": "vuDMvUlZTWsBNaGzq0oV-69",
+		"_target": "vuDMvUlZTWsBNaGzq0oV-65",
+		"_edge": "1"
+	},
+	{
+		"mxGeometry": {
+			"_x": "610",
+			"_y": "900",
+			"_width": "120",
+			"_height": "60",
+			"_as": "geometry"
+		},
+		"_id": "vuDMvUlZTWsBNaGzq0oV-69",
+		"_value": "усы",
+		"_style": "rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;",
+		"_parent": "1",
+		"_vertex": "1"
+	},
+	{
+		"mxGeometry": {
+			"Array": {
+				"mxPoint": [
+					{
+						"_x": "820",
+						"_y": "880"
+					},
+					{
+						"_x": "670",
+						"_y": "880"
+					}
+				],
+				"_as": "points"
+			},
+			"_relative": "1",
+			"_as": "geometry"
+		},
+		"_id": "vuDMvUlZTWsBNaGzq0oV-73",
+		"_style": "edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;",
+		"_parent": "1",
+		"_source": "vuDMvUlZTWsBNaGzq0oV-72",
+		"_target": "vuDMvUlZTWsBNaGzq0oV-65",
+		"_edge": "1"
+	},
+	{
+		"mxGeometry": {
+			"_x": "750",
+			"_y": "900",
+			"_width": "120",
+			"_height": "60",
+			"_as": "geometry"
+		},
+		"_id": "vuDMvUlZTWsBNaGzq0oV-72",
+		"_value": "математика",
+		"_style": "rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;",
+		"_parent": "1",
+		"_vertex": "1"
+	},
+	{
+		"mxGeometry": {
+			"_x": "-650",
+			"_y": "360",
+			"_width": "120",
+			"_height": "60",
+			"_as": "geometry"
+		},
+		"_id": "vuDMvUlZTWsBNaGzq0oV-86",
+		"_value": "Даша",
+		"_style": "rounded=0;whiteSpace=wrap;html=1;",
+		"_parent": "1",
+		"_vertex": "1"
+	},
+	{
+		"mxGeometry": {
+			"_relative": "1",
+			"_as": "geometry"
+		},
+		"_id": "vuDMvUlZTWsBNaGzq0oV-88",
+		"_style": "edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;",
+		"_parent": "1",
+		"_source": "vuDMvUlZTWsBNaGzq0oV-87",
+		"_target": "vuDMvUlZTWsBNaGzq0oV-86",
+		"_edge": "1"
+	},
+	{
+		"mxGeometry": {
+			"_x": "-530",
+			"_y": "520",
+			"_width": "120",
+			"_height": "60",
+			"_as": "geometry"
+		},
+		"_id": "vuDMvUlZTWsBNaGzq0oV-87",
+		"_value": "Музыка",
+		"_style": "rounded=0;whiteSpace=wrap;html=1;",
+		"_parent": "1",
+		"_vertex": "1"
+	},
+	{
+		"mxGeometry": {
+			"_relative": "1",
+			"_as": "geometry"
+		},
+		"_id": "vuDMvUlZTWsBNaGzq0oV-90",
+		"_style": "edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;",
+		"_parent": "1",
+		"_source": "vuDMvUlZTWsBNaGzq0oV-89",
+		"_target": "vuDMvUlZTWsBNaGzq0oV-86",
+		"_edge": "1"
+	},
+	{
+		"mxGeometry": {
+			"_x": "-770",
+			"_y": "520",
+			"_width": "120",
+			"_height": "60",
+			"_as": "geometry"
+		},
+		"_id": "vuDMvUlZTWsBNaGzq0oV-89",
+		"_value": "Художка",
+		"_style": "rounded=0;whiteSpace=wrap;html=1;",
+		"_parent": "1",
+		"_vertex": "1"
+	},
+	{
+		"mxGeometry": {
+			"Array": {
+				"mxPoint": [
+					{
+						"_x": "-230",
+						"_y": "610"
+					},
+					{
+						"_x": "-470",
+						"_y": "610"
+					}
+				],
+				"_as": "points"
+			},
+			"_relative": "1",
+			"_as": "geometry"
+		},
+		"_id": "vuDMvUlZTWsBNaGzq0oV-94",
+		"_style": "edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;",
+		"_parent": "1",
+		"_source": "vuDMvUlZTWsBNaGzq0oV-91",
+		"_target": "vuDMvUlZTWsBNaGzq0oV-87",
+		"_edge": "1"
+	},
+	{
+		"mxGeometry": {
+			"_x": "-290",
+			"_y": "680",
+			"_width": "120",
+			"_height": "60",
+			"_as": "geometry"
+		},
+		"_id": "vuDMvUlZTWsBNaGzq0oV-91",
+		"_value": "Powerhouse",
+		"_style": "rounded=0;whiteSpace=wrap;html=1;",
+		"_parent": "1",
+		"_vertex": "1"
+	},
+	{
+		"mxGeometry": {
+			"_relative": "1",
+			"_as": "geometry"
+		},
+		"_id": "vuDMvUlZTWsBNaGzq0oV-113",
+		"_style": "edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;",
+		"_parent": "1",
+		"_source": "vuDMvUlZTWsBNaGzq0oV-92",
+		"_target": "vuDMvUlZTWsBNaGzq0oV-91",
+		"_edge": "1"
+	},
+	{
+		"mxGeometry": {
+			"_x": "-370",
+			"_y": "800",
+			"_width": "120",
+			"_height": "60",
+			"_as": "geometry"
+		},
+		"_id": "vuDMvUlZTWsBNaGzq0oV-92",
+		"_value": "Рейв",
+		"_style": "rounded=0;whiteSpace=wrap;html=1;fillColor=#D5E8D4;",
+		"_parent": "1",
+		"_vertex": "1"
+	},
+	{
+		"mxGeometry": {
+			"Array": {
+				"mxPoint": [
+					{
+						"_x": "-80",
+						"_y": "770"
+					},
+					{
+						"_x": "-230",
+						"_y": "770"
+					}
+				],
+				"_as": "points"
+			},
+			"_relative": "1",
+			"_as": "geometry"
+		},
+		"_id": "vuDMvUlZTWsBNaGzq0oV-97",
+		"_style": "edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;",
+		"_parent": "1",
+		"_source": "vuDMvUlZTWsBNaGzq0oV-95",
+		"_target": "vuDMvUlZTWsBNaGzq0oV-91",
+		"_edge": "1"
+	},
+	{
+		"mxGeometry": {
+			"_x": "-140",
+			"_y": "800",
+			"_width": "120",
+			"_height": "60",
+			"_as": "geometry"
+		},
+		"_id": "vuDMvUlZTWsBNaGzq0oV-95",
+		"_value": "Москва",
+		"_style": "rounded=0;whiteSpace=wrap;html=1;",
+		"_parent": "1",
+		"_vertex": "1"
+	},
+	{
+		"mxGeometry": {
+			"Array": {
+				"mxPoint": [
+					{
+						"_x": "-310",
+						"_y": "880"
+					},
+					{
+						"_x": "-470",
+						"_y": "880"
+					}
+				],
+				"_as": "points"
+			},
+			"_relative": "1",
+			"_as": "geometry"
+		},
+		"_id": "vuDMvUlZTWsBNaGzq0oV-133",
+		"_style": "edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;",
+		"_parent": "1",
+		"_source": "vuDMvUlZTWsBNaGzq0oV-99",
+		"_target": "vuDMvUlZTWsBNaGzq0oV-118",
+		"_edge": "1"
+	},
+	{
+		"mxGeometry": {
+			"_x": "-370",
+			"_y": "900",
+			"_width": "120",
+			"_height": "60",
+			"_as": "geometry"
+		},
+		"_id": "vuDMvUlZTWsBNaGzq0oV-99",
+		"_value": "Аппарат МРТ",
+		"_style": "rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;",
+		"_parent": "1",
+		"_vertex": "1"
+	},
+	{
+		"mxGeometry": {
+			"_x": "-530",
+			"_y": "900",
+			"_width": "120",
+			"_height": "60",
+			"_as": "geometry"
+		},
+		"_id": "vuDMvUlZTWsBNaGzq0oV-100",
+		"_value": "Стиральная машина",
+		"_style": "rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;",
+		"_parent": "1",
+		"_vertex": "1"
+	},
+	{
+		"mxGeometry": {
+			"_relative": "1",
+			"_as": "geometry"
+		},
+		"_id": "vuDMvUlZTWsBNaGzq0oV-104",
+		"_style": "edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;",
+		"_parent": "1",
+		"_source": "vuDMvUlZTWsBNaGzq0oV-103",
+		"_target": "vuDMvUlZTWsBNaGzq0oV-95",
+		"_edge": "1"
+	},
+	{
+		"mxGeometry": {
+			"_x": "-210",
+			"_y": "900",
+			"_width": "120",
+			"_height": "60",
+			"_as": "geometry"
+		},
+		"_id": "vuDMvUlZTWsBNaGzq0oV-103",
+		"_value": "Крем Сода",
+		"_style": "rounded=0;whiteSpace=wrap;html=1;",
+		"_parent": "1",
+		"_vertex": "1"
+	},
+	{
+		"mxGeometry": {
+			"_relative": "1",
+			"_as": "geometry"
+		},
+		"_id": "vuDMvUlZTWsBNaGzq0oV-106",
+		"_style": "edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;",
+		"_parent": "1",
+		"_source": "vuDMvUlZTWsBNaGzq0oV-105",
+		"_target": "vuDMvUlZTWsBNaGzq0oV-95",
+		"_edge": "1"
+	},
+	{
+		"mxGeometry": {
+			"_x": "-70",
+			"_y": "900",
+			"_width": "120",
+			"_height": "60",
+			"_as": "geometry"
+		},
+		"_id": "vuDMvUlZTWsBNaGzq0oV-105",
+		"_value": "Кузнецкий мост",
+		"_style": "rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;",
+		"_parent": "1",
+		"_vertex": "1"
+	},
+	{
+		"mxGeometry": {
+			"_relative": "1",
+			"_as": "geometry"
+		},
+		"_id": "XJxhsUU0Umza7og76Pbv-2",
+		"_style": "edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;",
+		"_parent": "1",
+		"_source": "vuDMvUlZTWsBNaGzq0oV-107",
+		"_target": "vuDMvUlZTWsBNaGzq0oV-103",
+		"_edge": "1"
+	},
+	{
+		"mxGeometry": {
+			"_x": "-290",
+			"_y": "1000",
+			"_width": "120",
+			"_height": "60",
+			"_as": "geometry"
+		},
+		"_id": "vuDMvUlZTWsBNaGzq0oV-107",
+		"_value": "Крем ",
+		"_style": "rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;",
+		"_parent": "1",
+		"_vertex": "1"
+	},
+	{
+		"mxGeometry": {
+			"_relative": "1",
+			"_as": "geometry"
+		},
+		"_id": "vuDMvUlZTWsBNaGzq0oV-109",
+		"_style": "edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;",
+		"_parent": "1",
+		"_source": "vuDMvUlZTWsBNaGzq0oV-108",
+		"_target": "vuDMvUlZTWsBNaGzq0oV-103",
+		"_edge": "1"
+	},
+	{
+		"mxGeometry": {
+			"_x": "-130",
+			"_y": "1000",
+			"_width": "120",
+			"_height": "60",
+			"_as": "geometry"
+		},
+		"_id": "vuDMvUlZTWsBNaGzq0oV-108",
+		"_value": "Сода",
+		"_style": "rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;",
+		"_parent": "1",
+		"_vertex": "1"
+	},
+	{
+		"mxGeometry": {
+			"_relative": "1",
+			"_as": "geometry"
+		},
+		"_id": "vuDMvUlZTWsBNaGzq0oV-117",
+		"_style": "edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;",
+		"_parent": "1",
+		"_source": "vuDMvUlZTWsBNaGzq0oV-116",
+		"_target": "vuDMvUlZTWsBNaGzq0oV-87",
+		"_edge": "1"
+	},
+	{
+		"mxGeometry": {
+			"_x": "-530",
+			"_y": "680",
+			"_width": "120",
+			"_height": "60",
+			"_as": "geometry"
+		},
+		"_id": "vuDMvUlZTWsBNaGzq0oV-116",
+		"_value": "Hadau",
+		"_style": "rounded=0;whiteSpace=wrap;html=1;",
+		"_parent": "1",
+		"_vertex": "1"
+	},
+	{
+		"mxGeometry": {
+			"_relative": "1",
+			"_as": "geometry"
+		},
+		"_id": "vuDMvUlZTWsBNaGzq0oV-121",
+		"_style": "edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;",
+		"_parent": "1",
+		"_source": "vuDMvUlZTWsBNaGzq0oV-118",
+		"_target": "vuDMvUlZTWsBNaGzq0oV-116",
+		"_edge": "1"
+	},
+	{
+		"mxGeometry": {
+			"_x": "-530",
+			"_y": "800",
+			"_width": "120",
+			"_height": "60",
+			"_as": "geometry"
+		},
+		"_id": "vuDMvUlZTWsBNaGzq0oV-118",
+		"_value": "Loundry",
+		"_style": "rounded=0;whiteSpace=wrap;html=1;",
+		"_parent": "1",
+		"_vertex": "1"
+	},
+	{
+		"mxGeometry": {
+			"Array": {
+				"mxPoint": [
+					{
+						"_x": "-650",
+						"_y": "780"
+					},
+					{
+						"_x": "-470",
+						"_y": "780"
+					}
+				],
+				"_as": "points"
+			},
+			"_relative": "1",
+			"_as": "geometry"
+		},
+		"_id": "XJxhsUU0Umza7og76Pbv-1",
+		"_style": "edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;",
+		"_parent": "1",
+		"_source": "vuDMvUlZTWsBNaGzq0oV-119",
+		"_target": "vuDMvUlZTWsBNaGzq0oV-116",
+		"_edge": "1"
+	},
+	{
+		"mxGeometry": {
+			"_x": "-710",
+			"_y": "800",
+			"_width": "120",
+			"_height": "60",
+			"_as": "geometry"
+		},
+		"_id": "vuDMvUlZTWsBNaGzq0oV-119",
+		"_value": "Хабаровск",
+		"_style": "rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;",
+		"_parent": "1",
+		"_vertex": "1"
+	},
+	{
+		"mxGeometry": {
+			"_relative": "1",
+			"_as": "geometry"
+		},
+		"_id": "vuDMvUlZTWsBNaGzq0oV-129",
+		"_style": "edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;",
+		"_parent": "1",
+		"_source": "vuDMvUlZTWsBNaGzq0oV-122",
+		"_target": "vuDMvUlZTWsBNaGzq0oV-89",
+		"_edge": "1"
+	},
+	{
+		"mxGeometry": {
+			"_x": "-850",
+			"_y": "680",
+			"_width": "120",
+			"_height": "60",
+			"_as": "geometry"
+		},
+		"_id": "vuDMvUlZTWsBNaGzq0oV-122",
+		"_value": "Спасск",
+		"_style": "rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;",
+		"_parent": "1",
+		"_vertex": "1"
+	},
+	{
+		"mxGeometry": {
+			"_relative": "1",
+			"_as": "geometry"
+		},
+		"_id": "vuDMvUlZTWsBNaGzq0oV-127",
+		"_style": "edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;",
+		"_parent": "1",
+		"_source": "vuDMvUlZTWsBNaGzq0oV-125",
+		"_target": "vuDMvUlZTWsBNaGzq0oV-89",
+		"_edge": "1"
+	},
+	{
+		"mxGeometry": {
+			"_x": "-710",
+			"_y": "680",
+			"_width": "120",
+			"_height": "60",
+			"_as": "geometry"
+		},
+		"_id": "vuDMvUlZTWsBNaGzq0oV-125",
+		"_value": "Пленэр",
+		"_style": "rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;",
+		"_parent": "1",
+		"_vertex": "1"
+	},
+	{
+		"mxGeometry": {
+			"_relative": "1",
+			"_as": "geometry"
+		},
+		"_id": "vuDMvUlZTWsBNaGzq0oV-132",
+		"_style": "edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;",
+		"_parent": "1",
+		"_source": "vuDMvUlZTWsBNaGzq0oV-100",
+		"_target": "vuDMvUlZTWsBNaGzq0oV-118",
+		"_edge": "1"
+	},
+	{
+		"mxGeometry": {
+			"Array": {
+				"mxPoint": [
+					{
+						"_x": "380",
+						"_y": "520"
+					},
+					{
+						"_x": "540",
+						"_y": "520"
+					}
+				],
+				"_as": "points"
+			},
+			"_relative": "1",
+			"_as": "geometry"
+		},
+		"_id": "vuDMvUlZTWsBNaGzq0oV-137",
+		"_style": "edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;",
+		"_parent": "1",
+		"_source": "vuDMvUlZTWsBNaGzq0oV-134",
+		"_target": "vuDMvUlZTWsBNaGzq0oV-7",
+		"_edge": "1"
+	},
+	{
+		"mxGeometry": {
+			"_x": "320",
+			"_y": "550",
+			"_width": "120",
+			"_height": "60",
+			"_as": "geometry"
+		},
+		"_id": "vuDMvUlZTWsBNaGzq0oV-134",
+		"_value": "Шар",
+		"_style": "rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;",
+		"_parent": "1",
+		"_vertex": "1"
+	},
+	{
+		"mxGeometry": {
+			"_relative": "1",
+			"_as": "geometry"
+		},
+		"_id": "vuDMvUlZTWsBNaGzq0oV-138",
+		"_style": "edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;",
+		"_parent": "1",
+		"_source": "vuDMvUlZTWsBNaGzq0oV-135",
+		"_target": "vuDMvUlZTWsBNaGzq0oV-7",
+		"_edge": "1"
+	},
+	{
+		"mxGeometry": {
+			"_x": "480",
+			"_y": "550",
+			"_width": "120",
+			"_height": "60",
+			"_as": "geometry"
+		},
+		"_id": "vuDMvUlZTWsBNaGzq0oV-135",
+		"_value": "Боулинг",
+		"_style": "rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;",
+		"_parent": "1",
+		"_vertex": "1"
+	}
+]
