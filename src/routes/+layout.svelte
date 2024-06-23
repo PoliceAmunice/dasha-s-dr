@@ -1,17 +1,11 @@
-<main>
-	<slot />
-</main>
+<script>
+	import '../app.css';
+</script>
 
-<style lang="postcss">
-	:global(html) {
-		font: 15px 'Comics Sans';
-		color: #101010;
-		background-color: #eaeaea;
-	}
+<slot />
 
+<style>
 	:global(body) {
-		display: flex;
-		justify-content: center;
 		min-height: 100vh;
 	}
 </style>

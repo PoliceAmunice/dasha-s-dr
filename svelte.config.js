@@ -9,7 +9,7 @@ const config = {
 	preprocess: vitePreprocess(),
 
 	kit: {
-		adapter: process.env.VERCEL_CD ? vercelAdapter() : nodeAdapter(),
+		adapter: process.env.VERCEL_CD ? vercelAdapter() : nodeAdapter()
 	}
 };
 

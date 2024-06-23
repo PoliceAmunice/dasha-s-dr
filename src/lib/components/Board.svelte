@@ -90,13 +90,7 @@
 	<!-- svelte-ignore a11y-no-static-element-interactions -->
 	<div on:mouseup={onMouseUp} bind:this={boardEl}>
 		{#each initialCards as card (card.slug)}
-			<Card
-				bind:this={cardComps[card.slug]}
-				slug={card.slug}
-				title={card.title}
-				x={0}
-				y={0}
-			/>
+			<Card bind:this={cardComps[card.slug]} slug={card.slug} title={card.title} x={0} y={0} />
 		{/each}
 	</div>
 </section>

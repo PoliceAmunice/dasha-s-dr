@@ -7,7 +7,7 @@
 	export let y: number;
 </script>
 
-<Draggable x={x} y={y}>
+<Draggable {x} {y}>
 	<span id={slug}>
 		{title}
 	</span>
