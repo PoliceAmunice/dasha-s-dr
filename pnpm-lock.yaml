@@ -14,9 +14,6 @@ dependencies:
   lucide-svelte:
     specifier: ^0.396.0
     version: 0.396.0(svelte@4.2.7)
-  normalize.css:
-    specifier: ^8.0.1
-    version: 8.0.1
   tailwind-merge:
     specifier: ^2.3.0
     version: 2.3.0
@@ -2154,10 +2151,6 @@ packages:
     resolution: {integrity: sha1-LRDAa9/TEuqXd2laTShDlFa3WUI=}
     engines: {node: '>=0.10.0'}
     dev: true
-
-  /normalize.css@8.0.1:
-    resolution: {integrity: sha512-qizSNPO93t1YUuUhP22btGOo3chcvDFqFaj2TRybP0DMxkHOCTYwp3n34fel4a31ORXy4m1Xq0Gyqpb5m33qIg==}
-    dev: false
 
   /npmlog@5.0.1:
     resolution: {integrity: sha512-AqZtDUWOMKs1G/8lwylVjrdYgqA4d9nu8hc+0gzRxlDb1I10+FHBGMXs6aiQHFdCUUlqH99MUMuLfzWDNDtfxw==}
