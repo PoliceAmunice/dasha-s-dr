@@ -1,7 +1,7 @@
 {
 	"extends": "./.svelte-kit/tsconfig.json",
 	"compilerOptions": {
-		"lib": ["ES2015", "DOM"],
+		"lib": ["ES2015", "DOM", "ES2017.String"],
 		"allowJs": true,
 		"checkJs": true,
 		"esModuleInterop": true,
