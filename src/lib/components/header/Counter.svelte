@@ -1,9 +1,11 @@
 <script lang="ts">
-	// your script goes here
+	import { matches, CARDS_MAP, UPPER_CARDS } from '$lib/store';
+	import { onMount } from 'svelte';
+
+	const cardsToOpen = (CARDS_MAP.size - UPPER_CARDS.length) / 2 - 2;
+	let counter = `0/${cardsToOpen}`;
+
+	onMount(() => matches.subscribe((m) => (counter = `${m.length}/${cardsToOpen}`)));
 </script>
 
-<span>Открыто экземпляров: 0/150</span>
-
-<style>
-	/* your styles go here */
-</style>
+<span>Открыто экземпляров: <span class="font-mono">{counter}</span> 📈</span>

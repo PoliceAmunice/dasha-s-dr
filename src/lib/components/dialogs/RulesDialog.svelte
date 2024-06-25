@@ -3,7 +3,7 @@
 	import { buttonVariants } from '$lib/components/ui/button';
 </script>
 
-<Dialog.Root>
+<Dialog.Root open={true}>
 	<Dialog.Trigger class={buttonVariants({ variant: 'outline' })}
 		>Какие-то условные правила</Dialog.Trigger
 	>

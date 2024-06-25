@@ -1,4 +1,5 @@
 <script lang="ts">
+	import { passedTrees } from '$lib/store';
 	import moment from 'moment';
 	import { onDestroy, onMount } from 'svelte';
 
@@ -28,8 +29,14 @@
 		clear = setInterval(increment, 1000);
 	}
 
+	passedTrees.subscribe((pt) => {
+		if (pt.primary && pt.secondary) {
+			clearInterval(clear);
+		}
+	});
+
 	onMount(increment);
 	onDestroy(() => clearInterval(clear));
 </script>
 
-<span class="font-mono text-sm text-muted-foreground">{time}</span>
+<span class="font-mono">⏱️ {time}</span>

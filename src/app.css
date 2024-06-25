@@ -76,3 +76,10 @@
 		@apply bg-background text-foreground;
 	}
 }
+
+@layer utilities {
+	.card-sizes {
+		height: 12rem;
+		width: 9rem;
+	}
+}
