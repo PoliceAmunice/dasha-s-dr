@@ -29,12 +29,12 @@
 	streaks.subscribe((s) => {
 		if (s.matches === 3) {
 			toast('Вы варите великолепно!');
-			streaks.update((s) => ({ ...s, matches: 0 }));
+			streaks.set(({ matches: 0, mismatches: 0 }));
 		}
 
 		if (s.mismatches === 3) {
 			toast('Ну, или мы чё-то напутали...');
-			streaks.update((s) => ({ ...s, mismatches: 0 }));
+			streaks.set(({ matches: 0, mismatches: 0 }));
 		}
 	});
 
