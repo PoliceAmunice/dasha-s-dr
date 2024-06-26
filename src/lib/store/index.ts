@@ -8,8 +8,14 @@ import {
 	type TCard
 } from './draw-io';
 
+type Streaks = {
+	matches: number;
+	mismatches: number;
+};
+
 const matches = writable<TCard[][]>([]);
 const mismatch = writable<TCard>();
+const streaks = writable<Streaks>({ matches: 0, mismatches: 0 });
 
 type PassedTrees = {
 	primary: boolean;
@@ -18,13 +24,18 @@ type PassedTrees = {
 
 const passedTrees = writable<PassedTrees>({ primary: false, secondary: false });
 
+// initial is `true` cause of onboarding dialog at the start
+const isDialogOpen = writable<boolean>(true);
+
 const FLIP_DURATION_MS = 300;
 
 export {
 	//writable
 	matches,
 	mismatch,
+	streaks,
 	passedTrees,
+	isDialogOpen,
 	// constants
 	CARDS_MAP,
 	UPPER_CARDS,

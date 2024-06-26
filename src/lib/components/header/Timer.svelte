@@ -1,5 +1,5 @@
 <script lang="ts">
-	import { passedTrees } from '$lib/store';
+	import { isDialogOpen, passedTrees } from '$lib/store';
 	import moment from 'moment';
 	import { onDestroy, onMount } from 'svelte';
 
@@ -7,9 +7,8 @@
 	let duration: moment.Duration;
 	let time = '00:00:00';
 
-	// TODO start count only after onboarding
 	function increment(): void {
-		if (document.hidden) return;
+		if (document.hidden || $isDialogOpen) return;
 		duration = moment.duration(++counter * 1000);
 		time = getTime(duration);
 	}

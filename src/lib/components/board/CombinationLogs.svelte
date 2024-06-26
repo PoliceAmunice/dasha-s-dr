@@ -7,7 +7,11 @@
 
 <div class={clsx('flex flex-col', $$props.class)}>
 	<h2 class="py-4 text-center text-lg font-semibold leading-none tracking-tight">
-		История комбинаций
+		{#if $matches.length < 10}
+			История комбинаций
+		{:else}
+			Ну наварила...
+		{/if}
 	</h2>
 	<div class="h-10 flex-grow overflow-x-hidden overflow-y-scroll px-4">
 		{#if $matches.length}

@@ -1,6 +1,7 @@
 <script lang="ts">
 	import * as Dialog from '$lib/components/ui/dialog';
 	import { passedTrees } from '$lib/store';
+	import { broadOpenState } from './utils';
 
 	let isOpen = false;
 	const unsubscribe = passedTrees.subscribe((pt) => {
@@ -10,7 +11,7 @@
 	});
 </script>
 
-<Dialog.Root open={isOpen}>
+<Dialog.Root open={isOpen} onOpenChange={broadOpenState}>
 	<Dialog.Content class="flex h-[700px] max-w-5xl flex-col overflow-hidden p-12 pl-[31.5em]">
 		<Dialog.Title class="text-center text-7xl font-black text-stone-700"
 			>Поздравляем,<br />ты нашла<br />Филиппа!</Dialog.Title
