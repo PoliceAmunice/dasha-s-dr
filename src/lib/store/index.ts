@@ -8,8 +8,14 @@ import {
 	type TCard
 } from './draw-io';
 
+type Streaks = {
+	matches: number;
+	mismatches: number;
+};
+
 const matches = writable<TCard[][]>([]);
 const mismatch = writable<TCard>();
+const streaks = writable<Streaks>({ matches: 0, mismatches: 0 });
 
 type PassedTrees = {
 	primary: boolean;
@@ -27,6 +33,7 @@ export {
 	//writable
 	matches,
 	mismatch,
+	streaks,
 	passedTrees,
 	isDialogOpen,
 	// constants
