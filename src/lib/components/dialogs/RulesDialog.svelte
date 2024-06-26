@@ -2,10 +2,11 @@
 	import * as Dialog from '$lib/components/ui/dialog';
 	import { buttonVariants } from '$lib/components/ui/button';
 	import { broadOpenState } from './utils';
+	import clsx from 'clsx';
 </script>
 
 <Dialog.Root open={true} onOpenChange={broadOpenState}>
-	<Dialog.Trigger class={buttonVariants({ variant: 'outline' })}
+	<Dialog.Trigger class={clsx('amazing-button', buttonVariants({ variant: 'outline' }))}
 		>Какие-то условные правила</Dialog.Trigger
 	>
 	<Dialog.Content class="max-w-5xl p-16">
