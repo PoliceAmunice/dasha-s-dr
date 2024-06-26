@@ -18,6 +18,9 @@ type PassedTrees = {
 
 const passedTrees = writable<PassedTrees>({ primary: false, secondary: false });
 
+// initial is `true` cause of onboarding dialog at the start
+const isDialogOpen = writable<boolean>(true);
+
 const FLIP_DURATION_MS = 300;
 
 export {
@@ -25,6 +28,7 @@ export {
 	matches,
 	mismatch,
 	passedTrees,
+	isDialogOpen,
 	// constants
 	CARDS_MAP,
 	UPPER_CARDS,

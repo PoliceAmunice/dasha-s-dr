@@ -1,9 +1,10 @@
 <script lang="ts">
 	import * as Dialog from '$lib/components/ui/dialog';
 	import { buttonVariants } from '$lib/components/ui/button';
+	import { broadOpenState } from './utils';
 </script>
 
-<Dialog.Root open={true}>
+<Dialog.Root open={true} onOpenChange={broadOpenState}>
 	<Dialog.Trigger class={buttonVariants({ variant: 'outline' })}
 		>Какие-то условные правила</Dialog.Trigger
 	>
