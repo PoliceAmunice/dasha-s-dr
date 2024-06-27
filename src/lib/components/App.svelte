@@ -5,6 +5,7 @@
 	import Controls from '$lib/components/board/Controls.svelte';
 	import Header from '$lib/components/header/Header.svelte';
 	import { initConfetti } from './confetti';
+	import NpsLikeWidget from './NpsLikeWidget.svelte';
 	import { Streak } from './streak';
 
 	initConfetti();
@@ -20,4 +21,5 @@
 	<CardsHolder />
 
 	<Streak />
+	<NpsLikeWidget />
 </div>
