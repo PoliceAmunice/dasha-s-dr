@@ -44,5 +44,6 @@ export {
 	COMBINATION_SIZE,
 	FLIP_DURATION_MS,
 	// types
-	type TCard
+	type TCard,
+	type Streaks
 };

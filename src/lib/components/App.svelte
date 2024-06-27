@@ -4,39 +4,8 @@
 	import CombinationLogs from '$lib/components/board/CombinationLogs.svelte';
 	import Controls from '$lib/components/board/Controls.svelte';
 	import Header from '$lib/components/header/Header.svelte';
-	import { matches, mismatch, streaks } from '$lib/store';
-	import { toast } from 'svelte-sonner';
-	import Sonner from '$lib/components/Sonner.svelte';
 	import { initConfetti } from './confetti';
-
-	matches.subscribe(
-		(m) =>
-			m.length &&
-			streaks.update((s) => ({
-				...s,
-				matches: s.matches + 1
-			}))
-	);
-	mismatch.subscribe(
-		(m) =>
-			m &&
-			streaks.update((s) => ({
-				...s,
-				mismatches: s.mismatches + 1
-			}))
-	);
-
-	streaks.subscribe((s) => {
-		if (s.matches === 3) {
-			toast('Вы варите великолепно!');
-			streaks.set(({ matches: 0, mismatches: 0 }));
-		}
-
-		if (s.mismatches === 3) {
-			toast('Ну, или мы чё-то напутали...');
-			streaks.set(({ matches: 0, mismatches: 0 }));
-		}
-	});
+	import { Streak } from './streak';
 
 	initConfetti();
 </script>
@@ -50,5 +19,5 @@
 	</section>
 	<CardsHolder />
 
-	<Sonner />
+	<Streak />
 </div>
