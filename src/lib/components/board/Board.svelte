@@ -37,13 +37,13 @@
 <style>
 	section {
 		position: relative;
-		background-image: url('$lib/assets/board-bg.jpg');
+		background-image: url('$lib/assets/board/board-bg.jpg');
 		background-repeat: no-repeat;
 		background-size: cover;
 	}
 
 	section.clear-bg {
-		background-image: url('$lib/assets/board-bg-clear.png');
+		background-image: url('$lib/assets/board/board-bg-clear.png');
 	}
 
 	.reaction {

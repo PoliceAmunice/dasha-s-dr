@@ -4,46 +4,11 @@
 	import CombinationLogs from '$lib/components/board/CombinationLogs.svelte';
 	import Controls from '$lib/components/board/Controls.svelte';
 	import Header from '$lib/components/header/Header.svelte';
-	import { getConfettiFn } from './utils';
-	import { matches, mismatch, passedTrees, streaks } from '$lib/store';
-	import { toast } from 'svelte-sonner';
-	import Sonner from '$lib/components/Sonner.svelte';
+	import { initConfetti } from './confetti';
+	import NpsLikeWidget from './NpsLikeWidget.svelte';
+	import { Streak } from './streak';
 
-	matches.subscribe(
-		(m) =>
-			m.length &&
-			streaks.update((s) => ({
-				...s,
-				matches: s.matches + 1
-			}))
-	);
-	mismatch.subscribe(
-		(m) =>
-			m &&
-			streaks.update((s) => ({
-				...s,
-				mismatches: s.mismatches + 1
-			}))
-	);
-
-	streaks.subscribe((s) => {
-		if (s.matches === 3) {
-			toast('Вы варите великолепно!');
-			streaks.set(({ matches: 0, mismatches: 0 }));
-		}
-
-		if (s.mismatches === 3) {
-			toast('Ну, или мы чё-то напутали...');
-			streaks.set(({ matches: 0, mismatches: 0 }));
-		}
-	});
-
-	passedTrees.subscribe((pt) => {
-		if (pt.primary && pt.secondary) {
-			const confetti = getConfettiFn(Date.now());
-			confetti();
-		}
-	});
+	initConfetti();
 </script>
 
 <div class="flex min-h-svh flex-col">
@@ -55,5 +20,6 @@
 	</section>
 	<CardsHolder />
 
-	<Sonner />
+	<Streak />
+	<NpsLikeWidget />
 </div>
