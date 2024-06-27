@@ -1,6 +1,21 @@
+import { matches, passedTrees } from '$lib/store';
 import confetti from 'canvas-confetti';
 
-export function getConfettiFn(startTime: number): () => void {
+export function initConfetti(): void {
+	matches.subscribe((m) => {
+		if (!m.length) return;
+		confetti();
+	});
+
+	passedTrees.subscribe((pt) => {
+		if (!pt.primary || !pt.secondary) return;
+
+		const confetti = getConfettiFn(Date.now());
+		confetti();
+	});
+}
+
+function getConfettiFn(startTime: number): () => void {
 	const duration = 30 * 1000;
 	const end = startTime + duration;
 

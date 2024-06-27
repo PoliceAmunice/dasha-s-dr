@@ -4,10 +4,10 @@
 	import CombinationLogs from '$lib/components/board/CombinationLogs.svelte';
 	import Controls from '$lib/components/board/Controls.svelte';
 	import Header from '$lib/components/header/Header.svelte';
-	import { getConfettiFn } from './utils';
-	import { matches, mismatch, passedTrees, streaks } from '$lib/store';
+	import { matches, mismatch, streaks } from '$lib/store';
 	import { toast } from 'svelte-sonner';
 	import Sonner from '$lib/components/Sonner.svelte';
+	import { initConfetti } from './confetti';
 
 	matches.subscribe(
 		(m) =>
@@ -38,12 +38,7 @@
 		}
 	});
 
-	passedTrees.subscribe((pt) => {
-		if (pt.primary && pt.secondary) {
-			const confetti = getConfettiFn(Date.now());
-			confetti();
-		}
-	});
+	initConfetti();
 </script>
 
 <div class="flex min-h-svh flex-col">
