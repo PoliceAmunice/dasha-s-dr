@@ -11,8 +11,13 @@
 	{#if isParentless}
 		<span>'😵‍💫'</span>
 	{/if}
-	<div class="mx-auto mt-1.5 h-32 w-32 rounded-lg bg-zinc-900"></div>
-	<UICard.Title class="p-2 text-center text-sm">{data.title}</UICard.Title>
+	<div
+		class="relative mx-auto mt-1.5 h-32 w-32 rounded-lg border border-card bg-zinc-900 bg-cover bg-center bg-no-repeat shadow-inner"
+		style="background-image: url({data.imageUri});"
+	></div>
+	<UICard.Title class="overflow-hidden break-words p-2 text-center text-sm"
+		>{data.title}</UICard.Title
+	>
 </UICard.Root>
 
 <style>

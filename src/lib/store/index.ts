@@ -1,12 +1,5 @@
 import { writable } from 'svelte/store';
-import {
-	CARDS_MAP,
-	COMBINATION_SIZE,
-	DEPTH_MAP,
-	MAX_DEPTH,
-	UPPER_CARDS,
-	type TCard
-} from './draw-io';
+import { CARDS_MAP, DEPTH_MAP, MAX_DEPTH, UPPER_CARDS, type TCard } from './draw-io';
 
 type Streaks = {
 	matches: number;
@@ -41,7 +34,6 @@ export {
 	UPPER_CARDS,
 	MAX_DEPTH,
 	DEPTH_MAP,
-	COMBINATION_SIZE,
 	FLIP_DURATION_MS,
 	// types
 	type TCard,

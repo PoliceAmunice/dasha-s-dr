@@ -19,6 +19,6 @@
 		</UICard.Title>
 		<div class="pt-3 text-lg">👇</div>
 		<div class="text-xl">{parent.title}</div>
-		<UICard.Description>Мы помним, почему ты на самом деле ушла из Хауса</UICard.Description>
+		<UICard.Description>{parent.description}</UICard.Description>
 	</UICard.Header>
 </UICard.Root>
